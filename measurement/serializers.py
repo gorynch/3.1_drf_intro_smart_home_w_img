@@ -14,7 +14,7 @@ class MeasurementSerializer(serializers.ModelSerializer):
 class SensorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sensor
-        fields = ['id', 'name', 'description', 'image']
+        fields = ['id', 'name', 'description']
 
 
 # data about defined sensor (udate data about sensor (name, description))
